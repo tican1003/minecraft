@@ -43,10 +43,38 @@ html {
   width: 33.3333%;
 }
 
+.grid__column-6 {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 50%;
+}
+
 .grid__column-12 {
   padding-left: 30px;
   padding-right: 30px;
   width: 100%;
+}
+
+.grid__column-12-5 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 20%;
+}
+
+/* ===== Item large ===== */
+
+.item-large {
+  display: flex;
+}
+
+.item-large-left {
+  width: 60%;
+}
+
+.item-large-right {
+  flex: 1;
+  width: 40%;
+  padding-top: 25%;
 }
 
 /* ===== Animation ===== */

@@ -101,13 +101,10 @@
 .header__des {
   text-align: center;
   font-size: 2rem;
+  line-height: 3.2rem;
   color: #fff;
   font-weight: 600;
   opacity: 0.8;
-}
-/* ===== Body ===== */
-.body {
-  height: 5000px;
 }
 
 .overview {
@@ -152,7 +149,7 @@
 
 .overview__description-text {
   display: block;
-  margin-bottom: 150px;
+  margin-bottom: 80px;
   letter-spacing: 1.2px;
   word-spacing: 1.5px;
   line-height: 3rem;
@@ -190,9 +187,13 @@
 
 .overview__item-text {
   position: relative;
+}
+
+.overview__item-text__space {
   margin-top: 70px;
 }
 
+.item-title-large,
 .overview__item-title {
   margin-bottom: 14px;
   font-size: 2rem;
@@ -202,6 +203,7 @@
   text-align: center;
 }
 
+.device-description,
 .overview__item-des {
   width: 70%;
   transform: translateX(22%);
@@ -229,4 +231,151 @@
 .overview__item-icon:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+}
+
+.item-large {
+  width: 100%;
+  margin-top: 40px;
+  box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item-img-large {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item-title-large {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.item-des-large {
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.4px;
+  word-spacing: 0.4px;
+  font-weight: 500;
+  line-height: 2.2rem;
+  text-align: left;
+}
+
+.item-des-large > span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.item-price {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+.item-large-left {
+  padding: 40px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ===== Multi Device ===== */
+.device-form {
+  margin-top: 40px;
+  padding: 60px;
+  width: 100%;
+  color: #fff;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.device-title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.device-description {
+  display: block;
+  color: rgb(207, 207, 207);
+}
+
+.device-download-title {
+  text-align: center;
+  margin: 100px 0 50px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.device-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.device-link:hover .device-item {
+  color: #fff;
+  background-color: var(--primary-color-hover);
+}
+
+.device-link:hover .device-item__title {
+  font-size: 2.2rem;
+}
+
+.device-item {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  text-align: center;
+  padding: 16px 0;
+  transition: background ease 0.15s;
+  will-change: background;
+}
+
+.device-item__title {
+  font-size: 2rem;
+  transition: font ease 0.15s;
+  will-change: font;
+}
+
+.join-form {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #333;
+}
+
+.item-title-large--no-margin {
+  margin-bottom: 4px;
+}
+
+/* ===== Footer ===== */
+
+.footer {
+  margin-top: 40px;
+  border-top: 2px solid var(--primary-color);
+  width: 100%;
+  height: 50px;
+}
+
+.footer span {
+  margin: 16px;
+  display: block;
+  font-size: 1.2rem;
+  text-align: center;
 }
