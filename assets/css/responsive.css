@@ -103,6 +103,11 @@
     margin-bottom: 30px;
   }
 
+  .overview__item-icon:hover {
+    -webkit-transform: none;
+    transform: none;
+  }
+
   .grid__column-4 {
     padding-left: 30px;
     padding-right: 30px;
@@ -158,6 +163,10 @@
   .device-item.device-item--mobile-active {
     padding: 12px;
     display: block;
+  }
+
+  .device-item__title {
+    font-size: 1.5rem;
   }
 
   .grid__column-12-5 {
