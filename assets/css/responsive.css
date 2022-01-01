@@ -1,0 +1,186 @@
+/* ===== PC ===== */
+@media (min-width: 1024px) {
+}
+
+@media (max-width: 1260px) {
+  .grid__row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* ===== Tablet ===== */
+
+@media (max-width: 1023px) and (min-width: 740px) {
+  .grid {
+    padding: 0 30px;
+  }
+
+  .grid__column-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .item-large {
+    margin-top: 0;
+  }
+
+  .device-download-title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .join-now__btn {
+    width: 150px;
+    text-align: center;
+  }
+}
+
+/* ===== Mobile ===== */
+
+@media (max-width: 739px) {
+  .navbar__controls {
+    display: none;
+  }
+  .header {
+    margin-top: 50px;
+  }
+  .header__text {
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+  }
+
+  .header__logo-img {
+    top: -200%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 50px;
+    background-size: cover;
+  }
+
+  .header__navbar {
+    height: 50px;
+    background-color: #333;
+  }
+
+  .header__des {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+
+  .padding-banner {
+    display: none;
+  }
+
+  .overview__title {
+    margin-bottom: 30px;
+  }
+
+  .overview__title-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .overview__title-text h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .overview__title-text p {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+
+  .overview__des {
+    margin: 0;
+    width: 100%;
+  }
+
+  .overview__description-text {
+    margin-bottom: 30px;
+  }
+
+  .grid__column-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .item-large {
+    margin-top: 0;
+    padding: 0 30px;
+    box-shadow: none;
+  }
+
+  .item-large-left {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .item-large-right {
+    display: none;
+  }
+
+  .multi-devide__form {
+    padding: 0 30px;
+  }
+
+  .device-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .device-form {
+    padding: 30px;
+  }
+
+  .item-des-large-mobile,
+  .device-description {
+    width: 100%;
+    transform: none;
+  }
+
+  .device-download-title {
+    margin: 40px 0 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .device-item {
+    display: none;
+  }
+
+  .device-item.device-item--mobile-active {
+    padding: 12px;
+    display: block;
+  }
+
+  .grid__column-12-5 {
+    width: 50%;
+  }
+
+  .join-now__form {
+    padding: 0 30px;
+  }
+
+  .join-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item-title-large--no-margin {
+    margin: 10px 0 20px;
+    text-align: center;
+  }
+
+  .join-btn {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}

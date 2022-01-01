@@ -7,6 +7,7 @@
     <link rel="icon" href="./assets/img/minecraft-icon.png">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/aos-master/dist/aos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,9 +42,8 @@
                 </div>
             </div>
             <div class="header__text">
-                <div class="header__title">
                     <div class="header__logo-img" style="background-image: url(./assets/img/logo_large.png);"></div>
-                </div>
+                
                 <div class="header__des">
                     Cộng đồng người chơi Minecraft Việt Nam
                     <br>Never reset, chơi đến chết
@@ -74,6 +74,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="grid">
                     <div class="grid__row">
                         <div class="grid__column-4">
                             <div  data-aos="fade-up" data-aos-delay="200" class="overview__list">
@@ -147,53 +149,57 @@
             
             <!-- Multi device -->
             <div class="grid">
-                <div data-aos="fade-up" data-aos-delay="150" class="device-form">
-                    <h3 class="device-title">ĐA NỀN TẢNG</h3>
-                    <span class="device-description">Server của chúng tôi có thể chơi được trên nhiều 
-                        thiết bị khác nhau. Bạn có thể sửa dụng máy tính hoặc điện thoại di động để 
-                    kết nối với server. Server hiện hỗ trợ phiên bản Minecraft Java và Minecraft Bedrock.</span>
-                    <h3 class="device-download-title">TẢI GAME VÀ TIẾN HÀNH KẾT NỐI SERVER</h3>
-                <div class="grid__row">
-                    <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=vi&gl=US" class="device-link grid__column-12-5">
-                        <div class="device-item">
-                            <div class="ti-android device-item__title"> Android</div>
-                            </div>
-                    </a>
-                    <a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/minecraft/id479516143" class="device-link grid__column-12-5">
-                        <div class="device-item">
-                            <div class="ti-apple device-item__title"> iOS</div>
-                            </div>
-                    </a>
-                    <a target="_blank" rel="noopener" href="https://tlauncher.org/en/" class="device-link grid__column-12-5">
-                        <div class="device-item">
-                            <div class="ti-microsoft-alt device-item__title"> Windows</div>
-                            </div>
-                    </a>
-                    <a target="_blank" rel="noopener" href="https://tlauncher.org/en/" class="device-link grid__column-12-5">
-                        <div class="device-item">
-                            <div class="ti-apple device-item__title"> MacOS</div>
-                            </div>
-                    </a>
-                    <a target="_blank" rel="noopener" href="https://tlauncher.org/en/" class="device-link grid__column-12-5">
-                        <div class="device-item">
-                            <div class="ti-linux device-item__title"> Linux</div>
-                            </div>
-                    </a>
-                </div>
+                <div class="multi-devide__form">
+                    <div data-aos="fade-up" data-aos-delay="150" class="device-form">
+                        <h3 class="device-title">ĐA NỀN TẢNG</h3>
+                        <span class="device-description">Server của chúng tôi có thể chơi được trên nhiều 
+                            thiết bị khác nhau. Bạn có thể sửa dụng máy tính hoặc điện thoại di động để 
+                        kết nối với server. Server hiện hỗ trợ phiên bản Minecraft Java và Minecraft Bedrock.</span>
+                        <h3 class="device-download-title">TẢI GAME VÀ TIẾN HÀNH KẾT NỐI SERVER</h3>
+                    <div class="grid__row">
+                        <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=vi&gl=US" class="device-link grid__column-12-5">
+                            <div class="device-item device-item--mobile-active">
+                                <div class="ti-android device-item__title"> Android</div>
+                                </div>
+                        </a>
+                        <a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/minecraft/id479516143" class="device-link grid__column-12-5">
+                            <div class="device-item device-item--mobile-active">
+                                <div class="ti-apple device-item__title"> iOS</div>
+                                </div>
+                        </a>
+                        <a target="_blank" rel="noopener" href="https://tlauncher.org/en/" class="device-link grid__column-12-5">
+                            <div class="device-item">
+                                <div class="ti-microsoft-alt device-item__title"> Windows</div>
+                                </div>
+                        </a>
+                        <a target="_blank" rel="noopener" href="https://tlauncher.org/en/" class="device-link grid__column-12-5">
+                            <div class="device-item">
+                                <div class="ti-apple device-item__title"> MacOS</div>
+                                </div>
+                        </a>
+                        <a target="_blank" rel="noopener" href="https://tlauncher.org/en/" class="device-link grid__column-12-5">
+                            <div class="device-item">
+                                <div class="ti-linux device-item__title"> Linux</div>
+                                </div>
+                        </a>
+                    </div>
+                    </div>
                 </div>
             </div>
 
             <!-- Join now -->
             <div class="grid">
-                <div data-aos="fade-up" class="join-form">
-                    <div class="join-text">
-                        <h3 class="item-title-large item-title-large--no-margin">THAM GIA NGAY!</h3>
-                        <span class="item-des-large">Cùng chúng tôi tận hưởng những điều thú vị trong server, 
-                            giao lưu, kết bạn và lập team sinh tồn ngay hôm nay!
-                        </span>
-                    </div>
-                    <div class="join-btn navbar__control-item navbar__control-item--active">
-                        <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=100009788476690">Tham gia ngay!</a>
+                <div class="join-now__form">
+                    <div data-aos="fade-up" class="join-form">
+                        <div class="join-text">
+                            <h3 class="item-title-large item-title-large--no-margin">THAM GIA NGAY!</h3>
+                            <span class="item-des-large item-des-large-mobile">Cùng chúng tôi tận hưởng những điều thú vị trong server, 
+                                giao lưu, kết bạn và lập team sinh tồn ngay hôm nay!
+                            </span>
+                        </div>
+                        <div class="join-btn navbar__control-item navbar__control-item--active">
+                            <a class="join-now__btn" target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=100009788476690">Tham gia ngay!</a>
+                        </div>
                     </div>
                 </div>
             </div>
