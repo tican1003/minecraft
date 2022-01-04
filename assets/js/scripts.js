@@ -11,6 +11,7 @@ $(document).ready(function () {
 });
 
 // Mobile menu
+
 if (window.innerWidth < "740") {
   var mobileMenuList = document.querySelector(".navbar__controls");
   var mobileMenuBtn = document.querySelector(".navbar__menu");
