@@ -12,10 +12,11 @@ $(document).ready(function () {
 
 // Mobile menu
 
-if (window.innerHeight < "740") {
+if (window.innerWidth < "740") {
   var mobileMenuList = document.querySelector(".navbar__controls");
   var mobileMenuBtn = document.querySelector(".navbar__menu");
   var mobileMenuIcon = document.querySelector(".navbar__menu div");
+  mobileMenuList.style.display = "none";
 
   mobileMenuBtn.onclick = function () {
     if (mobileMenuList.style.display === "none") {
